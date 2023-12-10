@@ -1,0 +1,66 @@
+// #sect1 {
+//     height: 650px;
+//     color: 
+//   #fff;
+//     background-image: url("../../assets/Imagini/background.jpg");
+//     background-size: 100%;
+//     background-size: cover;
+//     background-position: center;
+//   }
+
+
+.wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.vector6 {
+    position: relative;
+    z-index: 99; /* Așezăm vector6 peste rectangle */
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 650px;
+    flex-shrink: 0;
+    background: #B0B8DB;
+    position: absolute;
+    z-index: 1; /* Așezăm rectangle sub vector6 */
+    top: 0; /* Așează dreptunghiul în colțul stânga sus */
+    left: 0;
+    
+}
+
+footer {
+    margin: 0;
+    background-color: #B0B8DB;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 999; /* Așezăm footer-ul deasupra tuturor celorlalte elemente */
+    bottom: 130px;
+}
+
+.hover-effect {
+    background-color: #E0E6F5;
+    transition: background-color 0.3s ease;
+}
+
+.hover-effect.temp {
+    opacity: 0.5; /* Exemplu de alt stil adăugat temporar */
+}
+
+.cerc_mare {
+    position: relative;
+    z-index: 99;  
+    bottom: 500px; /* ajustează valoarea pentru a muta cercul în sus */
+    left: 180px;
+    margin: 0;
+    padding: 0;
+}
