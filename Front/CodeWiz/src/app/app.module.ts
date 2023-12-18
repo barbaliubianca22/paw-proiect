@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
-
+import { CircleSvgComponent } from './acasa/circle-svg.component';
 import { AppComponent } from './app.component';
 import { AcasaComponent } from './acasa/acasa.component'; // Asigură-te că ai importat AcasaComponent
 
@@ -14,6 +14,7 @@ import { AcasaComponent } from './acasa/acasa.component'; // Asigură-te că ai 
   imports: [
     BrowserModule,
     CommonModule,
+    CircleSvgComponent,
     // ... alte module
   ],
   providers: [],
