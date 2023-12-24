@@ -75,7 +75,7 @@
     border-radius: 4px; 
     z-index: 0;
     position: absolute;
-    top: 350px;
+    top: 340px;
     right: 120px;
     width: 300px;
   }
@@ -222,19 +222,19 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999; 
+    z-index: 9999; 
 }
 .vector9 {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999; 
+    z-index: 9999; 
 }
 .vector7 {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999; 
+    z-index: 9999; 
 }
 .rectangle {
     margin: 0;
@@ -258,7 +258,6 @@ footer {
     padding: 20px 0;
     position: relative;
     z-index: 999; 
-    bottom: 365px;
 }
 
 .hover-effect {
@@ -271,9 +270,9 @@ footer {
 }
 
 .cerc_mare {
-    position: relative;
-    z-index: 99;  
-    bottom: 500px; 
+    position: absolute;
+    z-index: 2;  
+    bottom: 380px; 
     left: 180px;
     margin: 0;
     padding: 0;
@@ -281,54 +280,74 @@ footer {
 
 
 .cerc_mic {
-    position: relative;
+    position: absolute;
     z-index: 99;  
-    bottom: 200px;
-    left: 180px;
+    bottom: 40px;
+    left: 160px;
     margin-bottom: 0;
     padding: 0;
 }
 
 .cerc_mediu {
-    position: relative;
-    z-index: 99;  
-    bottom: 350px;
-    right: 0px;
+    position: absolute;
+    z-index: 2;  
+    bottom: 150px;
+    left: 30px;
     margin-bottom: 0;
     padding: 0;
 }
 .cerc_mediu2 {
-    position: relative;
-    z-index: 99;  
-    bottom: 550px;
+    position: absolute;
+    z-index: 2;  
+    bottom: 350px;
     left: 460px;
     margin-bottom: 0;
     padding: 0;
 }
 
 .cerc_mediu3 {
-    position: relative;
-    z-index: 1000;  
-    bottom: 765px;
-    left: 20px;
+    position: absolute;
+    z-index: 2;  
+    bottom: 450px;
+    left: 50px;
     margin-bottom: 0;
     padding: 0;
 }
 
 .cerc_mediu4 {
-    position: relative;
+    position: absolute;
     z-index: 99;  
-    bottom: 900px;
+    bottom: 600px;
     left: 500px;
     margin-bottom: 0;
     padding: 0;
 }
 
 .cerc_mediu5 {
-    position: relative;
+    position: absolute;
     z-index: 9999;  
-    bottom: 750px;
-    left: 1100px;
+    bottom: 240px;
+    left: 1200px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cerc_mediu6 {
+    position: absolute;
+    z-index: 9999;  
+    bottom: 40px;
+    left: 1000px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cerc_mediu7 {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    z-index: 9999;  
+    bottom: 50px;
+    left: 610px;
     margin-bottom: 0;
     padding: 0;
 }
