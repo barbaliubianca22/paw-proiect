@@ -1,0 +1,56 @@
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672"
+      - "15672"
+    volumes:
+      - ./config/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+      - ./config/definitions.json:/etc/rabbitmq/definitions.json:ro
+    networks:
+      - problem_submission_net
+
+  mariadb-PSolver:
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./config/createDB.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: codeWiz
+      MARIADB_USER: user
+      MARIADB_PASSWORD: pass
+      TZ: Europe/Bucharest
+    networks:
+      - problem_submission_net
+
+  problem-submission:
+    build:
+      context: ./submissionController/
+      dockerfile: Dockerfile
+    container_name: problem-submission-service
+    ports:
+      - '8080:8080'
+    networks:
+      - problem_submission_net
+    depends_on:
+      - mariadb-PSolver
+      - rabbitmq
+    restart: on-failure:10
+
+
+  judge:
+    build:
+      context: ./judge/
+      dockerfile: Dockerfile
+    container_name: judge-service
+    networks:
+      - problem_submission_net
+    depends_on:
+      - mariadb-PSolver
+      - rabbitmq
+    restart: on-failure:10
+
+networks:
+  problem_submission_net:

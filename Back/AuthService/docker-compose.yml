@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  auth-serv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auth-serv
+    ports:
+      - '8080:8080'
+    expose:
+      - '8080'
+    depends_on:
+      - auth-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://auth-db:5432/postgres-auth
+      - SPRING_DATASOURCE_USERNAME=postgres-auth
+      - SPRING_DATASOURCE_PASSWORD=postgres-auth
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  auth-db:
+    image: 'postgres:13.1-alpine'
+    container_name: auth-db
+    environment:
+      - POSTGRES_USER=postgres-auth
+      - POSTGRES_PASSWORD=postgres-auth
+    ports:
+      - '5433:5433'
+#    volumes:
+#      - ./postgres-data:/var/lib/postgresql/data

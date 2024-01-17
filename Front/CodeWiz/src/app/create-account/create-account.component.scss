@@ -1,0 +1,293 @@
+.vector101 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+footer {
+    margin: 0;
+    background-color: #B0B8DB;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1; 
+    bottom: 0px;
+    margin-top: 32.5rem;
+    margin-left: -4rem;
+}
+.rectangle3 {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 750px;
+    flex-shrink: 0;
+    background: linear-gradient(to left top, #B0B8DB, #b098e8);
+    position: absolute;
+    z-index: 0; 
+    top: 0; 
+    left: 0;
+    
+}
+.vector102 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector103 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector104 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector105 {
+    position: absolute;
+    top: 0;
+    left: 780px;
+    z-index: 2; 
+}
+.txt10 {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    bottom: 650px;
+    margin-left: 1rem;
+}
+.txt20 {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 3;
+    position: absolute;
+    bottom: 635px;
+    margin-left: 1rem;
+}
+.txt30 {
+    color: #000000;
+    text-shadow: 0px 4px 4px rgb(163, 159, 159);
+    font-family: Fanwood Text;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 49rem;
+}
+input[type="submit"] {
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #CF6DF5;
+    width: 10rem;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fanwood Text, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 51rem;
+}
+.login_button
+{
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #CF6DF5;
+    width: 4rem;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fanwood Text, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 28.5rem;
+    margin-left: 80rem;
+}
+input[type="username"] {
+    width: 400px;
+    height:30px;
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 43rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+
+  input[type="email"] {
+    width: 400px;
+    height:30px;
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 43rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+
+//   input[type="password"] {
+//     width: 400px;
+//     height:30px;
+//     position: absolute;
+//     margin-top: 18rem;
+//     margin-left: 43rem;
+//     z-index:3;
+//     padding: 8px;
+//     border: 1px solid rgba(0, 0, 0, 0.30);
+//     border-radius: 4px;
+//   }
+
+  #password
+  {
+    width: 400px;
+    height:30px;
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 43rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+  #confirm
+  {
+    width: 400px;
+    height:30px;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 43rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+
+  input[type="confirm"] {
+    width: 400px;
+    height:30px;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 43rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+
+  input[type="email"]::placeholder, input[type="username"]::placeholder, input[type="password"]::placeholder, input[type="confirm"]::placeholder {
+    font-family: Exo;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .cercMare1 {
+    position: absolute;
+    z-index: 4;  
+    bottom: 380px; 
+    left: 180px;
+    margin: 0;
+    padding: 0;
+}
+.cercMic1 {
+    position: absolute;
+    z-index: 4;  
+    bottom: 40px;
+    left: 160px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cercMediu1 {
+    position: absolute;
+    z-index: 4;  
+    bottom: 150px;
+    left: 30px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMediu20 {
+    position: absolute;
+    z-index: 4;  
+    bottom: 350px;
+    left: 460px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cercMediu30 {
+    position: absolute;
+    z-index: 4;  
+    bottom: 450px;
+    left: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMediu70 {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    z-index: 4;  
+    bottom: 50px;
+    left: 610px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.imag10 {
+    float: right; 
+    border-radius: 4px; 
+    width: 15em;
+    height: 15em;
+    z-index: 4;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 77rem;
+  }
+
+  .txtlogin {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 3;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 1100px;
+}

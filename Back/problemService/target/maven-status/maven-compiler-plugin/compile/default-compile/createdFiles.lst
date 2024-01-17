@@ -1,0 +1,6 @@
+com\example\problemservice\model\Problem.class
+com\example\problemservice\services\ProblemService.class
+com\example\problemservice\NotFoundException.class
+com\example\problemservice\ProblemServiceApplication.class
+com\example\problemservice\ForbiddenException.class
+com\example\problemservice\ProblemRepository.class

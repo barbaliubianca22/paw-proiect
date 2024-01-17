@@ -1,0 +1,391 @@
+.vector1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+footer {
+    margin: 0;
+    background-color: #B0B8DB;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1; 
+    bottom: 0px;
+    margin-top: 45rem;
+    margin-left: -4rem;
+}
+.log_in_button {
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #703E79;
+    width: 100px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fanwood Text, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 9999;
+    position: absolute;
+    top: 18rem;
+    right: 5.5rem;
+  }
+  .create_account_button {
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #703E79;
+    width: 200px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fanwood Text, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 9999;
+    position: absolute;
+    top: 9rem;
+    right: 3rem;
+  }
+.rectanglemov {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 750px;
+    flex-shrink: 0;
+    background: linear-gradient(to left top, #B0B8DB, #b098e8);
+    position: absolute;
+    z-index: 0; 
+    top: 0; 
+    left: 0;
+    
+}
+.zona-scroll {
+    height: 35rem;
+    width: 45rem;
+    overflow-y: auto;
+    overflow-x:hidden;
+    top: 9rem;
+    left: 2rem;
+    z-index: 99;
+    position: absolute;
+  }
+
+  .dreptunghi {
+    width: 44rem;
+    height: 10rem;
+    border: 0.07rem solid;
+    border-color: rgba(160, 155, 155, 0.2);
+    background-color: rgba(160, 155, 155, 0.2);
+    margin-bottom: 10px;
+    z-index:99;
+    position: relative;
+  }
+
+  .probleme {
+    color: #000000;
+    font-family: Fanwood Text, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    z-index: 999;
+    position: relative;
+    margin-left: 2rem;
+    text-align: center;
+  }
+.vector2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.vector5 {
+    position: absolute;
+    top: 0;
+    left: 762px;
+    z-index: 2; 
+}
+.txt {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    bottom: 630px;
+    margin-left: 1.5rem;
+}
+.txt2 {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 3;
+    position: absolute;
+    bottom: 635px;
+    margin-left: 1rem;
+}
+.txt3 {
+    color: #000000;
+    text-shadow: 0px 4px 4px rgb(163, 159, 159);
+    font-family: Fanwood Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 53rem;
+}
+
+.cercMicVerde {
+    position: absolute;
+    z-index: 4;  
+    top: 200px;
+    left: 900px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cercVerdeMare {
+    position: absolute;
+    z-index: 4;  
+    top: 50px;
+    left: 350px;
+    margin-bottom: 0;
+    
+    padding: 0;
+}
+.cercMediuMov {
+    position: absolute;
+    z-index: 4;  
+    top: 80px;
+    left: 900px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMediuMov2 {
+    position: absolute;
+    z-index: 4;  
+    top: 600px;
+    left: 1200px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMareMov {
+    position: absolute;
+    z-index: 4;  
+    top: 500px;
+    left: 1100px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cercMovDeschis {
+    position: absolute;
+    z-index: 4;  
+    bottom: 450px;
+    left: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMovInchisJos {
+    position: absolute;
+    z-index: 4;  
+    top: 600px;
+    left: 1050px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cercMovInchis {
+    position: absolute;
+    z-index: 4;  
+    top: 100px;
+    left: 450px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMovInchiss {
+    position: absolute;
+    z-index: 4;  
+    top: 150px;
+    left: 1000px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.cercMovInchis2 {
+    position: absolute;
+    z-index: 4;  
+    top: 80px;
+    left: 550px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.desk {
+    float: right; 
+    border-radius: 4px; 
+    width: 15em;
+    height: 15em;
+    z-index: 4;
+    position: absolute;
+    top: 13rem;
+    margin-left: 55rem;
+}
+
+  .custom-button2 {
+    display: flex;
+    width: 90px;
+    height: 17px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #CF6DF5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 500px;
+    margin-top: -19px;
+  }
+
+  
+  .custom-button3 {
+    display: flex;
+    width: 78px;
+    height: 17px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6EC6CA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 600px;
+    margin-top: 12px;
+  }
+  .custom-button4 {
+    display: flex;
+    width: 100px;
+    height: 17px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6EC6CA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 390px;
+    margin-top: -20px;
+  }
+  
+  .custom-button5 {
+    display: flex;
+    width: 90px;
+    height: 17px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #CF6DF5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 500px;
+    margin-top: -19px;
+  }
+  
+  .score-display {
+    display: flex;
+    width: 90px;
+    height: 8px;
+    padding: 10px;
+    justify-content: center;
+    font-family: Fanwood Text, serif;
+    font-size:13px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #703E79;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    position:absolute;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+  }
+  .ranking-box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 10px;
+    position:absolute;
+    top: 4rem;
+    left: 70rem;
+    z-index: 999;
+    width: 20rem;
+    height:20rem; 
+  }
+ 
+  .ranking-box ol {
+    list-style-type: upper-roman;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+
+  .rank {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 999999;
+    position: absolute;
+    padding-left: 100px;
+}

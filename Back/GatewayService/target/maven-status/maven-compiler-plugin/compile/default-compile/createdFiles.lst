@@ -1,0 +1,4 @@
+com\example\gatewayservice\config\AuthFilter$Config.class
+com\example\gatewayservice\config\GatewayConfig.class
+com\example\gatewayservice\GatewayServiceApplication.class
+com\example\gatewayservice\config\AuthFilter.class

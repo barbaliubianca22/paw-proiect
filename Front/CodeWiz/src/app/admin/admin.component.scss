@@ -1,0 +1,396 @@
+.txt {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    bottom: 630px;
+    margin-left: 1.5rem;
+}
+.rectanglemov {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 750px;
+    flex-shrink: 0;
+    background: linear-gradient(to left top, #B0B8DB, #b098e8);
+    position: absolute;
+    z-index: 0; 
+    top: 0; 
+    left: 0;
+    
+}
+
+.vector2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+}
+.vector3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+}
+.vector4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+}
+.insert {
+    color: #322B5B;
+    text-shadow: 0px 4px 4px rgb(255, 255, 255);
+    font-family: Fanwood Text;
+    font-size: 27px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: 16px;
+    z-index: 5;
+    position: absolute;
+    bottom: 550px;
+    margin-left: 10rem;
+}
+.problem {
+  color: #322B5B;
+  font-family: Fanwood Text;
+  font-size: 27px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: 20px;
+  width: 700px;
+  z-index: 5;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 50rem;
+}
+
+.problem2 {
+    color: #322B5B;
+    font-family: Fanwood Text;
+    font-size: 27px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: 20px;
+    width: 700px;
+    z-index: 5;
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 50rem;
+  }
+.result {
+  color: #322B5B;
+  text-shadow: 0px 4px 4px rgb(255, 255, 255);
+  font-family: Fanwood Text;
+  font-size: 27px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: 16px;
+  z-index: 5;
+  position: absolute;
+  margin-top: 22rem;
+  margin-left: 50rem;
+}
+footer {
+    margin: 0;
+    background-color: #B0B8DB;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1; 
+    top: 600px;
+    margin-top: 1rem;
+    margin-left: -4rem;
+    margin-right: -0.5rem;
+}
+// input[type="text"] {
+//     width: 600px;
+//     height:400px;
+//     position: absolute;
+//     top: 15rem;
+//     left: 6rem;
+//     z-index:3;
+//     padding: 8px;
+//     border: 1px solid rgba(0, 0, 0, 0.30);
+//     border-radius: 4px;
+//   }
+  input[type="number"] {
+    width: 300px;
+    height:30px;
+    position: absolute;
+    top: 23rem;
+    left: 51rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+  #titlu
+  {
+    width: 600px;
+    height:400px;
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+  input[type="descriere"] {
+    width: 300px;
+    height:30px;
+    position: absolute;
+    top: 9rem;
+    left: 51rem;
+    z-index:3;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+  }
+  .run {
+    width: 110px;
+    height: 35px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6EC6CA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 38rem;
+    margin-top: 43rem;
+    z-index: 99;
+  }
+  .post {
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6EC6CA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-left: 80rem;
+    margin-top: 43rem;
+    z-index: 99;
+  }
+  .runlogo {
+    float: left; 
+    width: 1em;
+    height: 1em;
+    z-index: 99;
+  }
+  .dreptunghi {
+    width: 40rem;
+    height: 15rem;
+    border: 0.07rem solid;
+    border-color: rgba(160, 155, 155, 0.2);
+    background-color: rgba(160, 155, 155, 0.2);
+    top: 5rem;
+    margin-left: 50rem;
+    z-index:99;
+    position: absolute;
+  }
+  .dreptunghi2 {
+    width: 40rem;
+    height: 17rem;
+    border: 0.07rem solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    top: 25rem;
+    margin-left: 50rem;
+    z-index:99999;
+    position: absolute;
+  }
+  .probleme {
+    color: #000000;
+    font-family: Fanwood Text, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    z-index: 999;
+    position: relative;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .rulat {
+    color:#FFFFFF;
+    font-family: Fanwood Text, serif;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 46px;
+    z-index: 999;
+    position: relative;
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .vector11 {
+    position: absolute;
+    top: 0;
+    left: 780px;
+    z-index: 0; 
+}
+
+.post
+{
+    display: inline-flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #CF6DF5;
+    width: 10rem;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fanwood Text, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: 55rem;
+}
+
+.cercMicVerde {
+  position: absolute;
+  z-index: 4;  
+  top: 200px;
+  left: 900px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cercVerdeMare {
+  position: absolute;
+  z-index: 4;  
+  top: 50px;
+  left: 350px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cercVerdeMare2 {
+  position: absolute;
+  z-index: 4;  
+  top: 660px;
+  left: 1390px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMediuMov {
+  position: absolute;
+  z-index: 4;  
+  top: 50px;
+  left: 900px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMediuMov2 {
+  position: absolute;
+  z-index: 4;  
+  top: 600px;
+  left: 1200px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMareMov {
+  position: absolute;
+  z-index: 4;  
+  top: 500px;
+  left: 1100px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMareMov2 {
+  position: absolute;
+  z-index: 4;  
+  top: 400px;
+  left: 1400px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cercMovDeschis {
+  position: absolute;
+  z-index: 4;  
+  bottom: 450px;
+  left: 50px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMovInchisJos {
+  position: absolute;
+  z-index: 4;  
+  top: 600px;
+  left: 1050px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cercMovInchis {
+  position: absolute;
+  z-index: 4;  
+  top: 100px;
+  left: 450px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMovInchiss {
+  position: absolute;
+  z-index: 4;  
+  top: 150px;
+  left: 1000px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cercMovInchis2 {
+  position: absolute;
+  z-index: 4;  
+  top: 80px;
+  left: 550px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+.purpleVibe {
+  float: right; 
+  border-radius: 4px; 
+  width: 20em;
+  height: 20em;
+  z-index: 4;
+  position: absolute;
+  top: 0rem;
+  margin-left: 72rem;
+}
+
+.purpleCat {
+  float: right; 
+  border-radius: 4px; 
+  width: 15em;
+  height: 15em;
+  z-index: 4;
+  position: absolute;
+  top: 30rem;
+  margin-left: 76rem;
+}

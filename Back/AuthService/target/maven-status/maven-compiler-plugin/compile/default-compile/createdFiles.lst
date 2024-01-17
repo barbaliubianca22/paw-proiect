@@ -1,0 +1,8 @@
+com\example\authservice\AuthServiceApplication.class
+com\example\authservice\TokenRepository.class
+com\example\authservice\UserRepository.class
+com\example\authservice\exceptions\ForbiddenException.class
+com\example\authservice\models\AuthUser.class
+com\example\authservice\services\UserService.class
+com\example\authservice\exceptions\NotFoundException.class
+com\example\authservice\models\TokenSession.class

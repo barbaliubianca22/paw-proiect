@@ -1,0 +1,60 @@
+version : '3'
+
+services:
+  problemdb:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=problemdb'
+      - 'POSTGRES_PASSWORD=secret'
+      - 'POSTGRES_USER=myuser'
+    ports:
+      - '5432:5432'
+
+  problem-service:
+    container_name: problem-service
+    build:
+        context: ./problemService/
+        dockerfile: Dockerfile
+    ports:
+      - '8082:8080'
+    image: problem-serv:latest
+    depends_on:
+      - problemdb
+    expose:
+      - '8080'
+      
+  gateway:
+    build:
+      context: ./GatewayService/
+      dockerfile: Dockerfile
+    container_name: gateway-service
+    ports:
+      - '8083:8080'
+    expose:
+      - '8080'
+      
+  auth-serv:
+    build:
+      context: ./AuthService/
+      dockerfile: Dockerfile
+    container_name: auth-serv
+    ports:
+      - '8081:8080'
+    expose:
+      - '8080'
+    depends_on:
+      - auth-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://auth-db:5432/postgres-auth
+      - SPRING_DATASOURCE_USERNAME=postgres-auth
+      - SPRING_DATASOURCE_PASSWORD=postgres-auth
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  auth-db:
+    image: 'postgres:13.1-alpine'
+    container_name: auth-db
+    environment:
+      - POSTGRES_USER=postgres-auth
+      - POSTGRES_PASSWORD=postgres-auth
+    ports:
+      - '5433:5433'
